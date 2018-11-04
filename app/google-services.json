@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466872761688",
+    "firebase_url": "https://dataalchemyapp.firebaseio.com",
+    "project_id": "dataalchemyapp",
+    "storage_bucket": "dataalchemyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466872761688:android:aaa0bd8d17343a39",
+        "android_client_info": {
+          "package_name": "io.github.hyoshida123.data_alchemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466872761688-65frtc7pet6uauni7ea27urcsa2eu34k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.hyoshida123.data_alchemy",
+            "certificate_hash": "00bbaa4be8c4cb475ce1669ec6e49d8a538f47cf"
+          }
+        },
+        {
+          "client_id": "466872761688-1651jvfms78q0ufu4qdqjj1f30knmvqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFHGeR1LMpEe6lsv4mv8JEmmrg2_qx6yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466872761688-1651jvfms78q0ufu4qdqjj1f30knmvqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
