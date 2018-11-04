@@ -4,7 +4,7 @@
 
     <uses-feature
         android:name="android.hardware.Camera"
-        android:required="true"/>
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SetProfileActivity" />
-        <activity android:name=".CameraActivity"></activity>
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".QuerryHistoryActivity"></activity>
     </application>
 
 </manifest>

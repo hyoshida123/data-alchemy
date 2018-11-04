@@ -51,6 +51,12 @@ public class CameraActivity extends AppCompatActivity {
         }
     }
 
+    public void showHistory(View view) {
+        Intent intent =new Intent(this, QuerryHistoryActivity.class);
+        startActivity(intent);
+
+    }
+
     public void encodeBitmapAndSaveToFirebase(Bitmap bitmap) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);

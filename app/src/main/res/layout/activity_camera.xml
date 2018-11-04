@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".CameraActivity"
     android:orientation="vertical">
-    
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,12 +17,12 @@
         />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@mipmap/ic_launcher"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="55dp"
-        android:id="@+id/imageView"/>
+        android:src="@mipmap/ic_launcher" />
 
     <Button
         android:id="@+id/sendPhotoButton"
@@ -30,5 +30,12 @@
         android:layout_height="wrap_content"
         android:onClick="sendPhoto"
         android:text="Send Photo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showHistory"
+        android:text="Query History" />
 
 </LinearLayout>
